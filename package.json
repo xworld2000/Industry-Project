@@ -1,0 +1,32 @@
+{
+  "name": "Industry-Project",
+  "version": "1.0.0",
+  "description": "Team Xworld",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zward2/Industry-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zward2/Industry-Project/issues"
+  },
+  "homepage": "https://github.com/zward2/Industry-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "git-user-name": "^2.0.0",
+    "mongodb": "^3.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
